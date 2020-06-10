@@ -84,7 +84,7 @@ fun View.height(height: Int) {
     layoutParams.height = height
 }
 fun View.width(width: Int) {
-    layoutParams.height = height
+    layoutParams.width = width
 }
 
 operator fun TextView.plusAssign(valueToAdd: String) {
